@@ -30,7 +30,7 @@ import java.util.Properties;
 		{
 			FileInputStream f=null;
 			try {
-				f = new FileInputStream("./src/main/resources/properties/commondata.properties");
+				f = new FileInputStream("./src/test/resources/properties/commondata.properties");
 			} catch (FileNotFoundException e) {
 				e.printStackTrace();
 			}
